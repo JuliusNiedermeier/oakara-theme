@@ -1,0 +1,11 @@
+<header>
+  {{ shop.name | link_to: routes.root_url }}
+</header>
+
+<h1>Cube 3</h1>
+
+<footer>
+  &copy;
+  {{ 'now' | date: '%Y' }}
+  {{ shop.name | link_to: routes.root_url }}
+</footer>
